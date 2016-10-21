@@ -15,8 +15,8 @@
 @property (nonatomic, strong) UIColor* color2;//中间颜色
 @property (nonatomic, strong) UIColor* color3;//外圈颜色
 
--(void)startAnimation;
+-(void)startAnimation;//
 -(void)stopAnimation;
-+(void)showInView:(UIView *)view;
-+(void)dismiss;
++(void)showInView:(UIView *)view;//显示动画
++(void)dismiss;//停止动画
 @end
